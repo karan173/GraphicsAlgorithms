@@ -1,0 +1,257 @@
+# depslib dependency file v1.0
+1378245844 source:c:\users\ksb\desktop\graphics\graphics\point.cpp
+	"primitives.h"
+	<graphics.h>
+
+1378247778 c:\users\ksb\desktop\graphics\graphics\primitives.h
+	<stdio.h>
+	<dos.h>
+
+1383399243 source:c:\users\ksb\desktop\graphics\graphics\linedriver.cpp
+	<stdio.h>
+	<conio.h>
+	<graphics.h>
+	"line.h"
+
+1378245844 c:\users\ksb\desktop\graphics\graphics\point.cpp
+	"primitives.h"
+	<graphics.h>
+
+1378245919 c:\users\ksb\desktop\graphics\graphics\line.cpp
+	"primitives.h"
+	"Point.cpp"
+	<math.h>
+
+1378245919 source:c:\users\ksb\desktop\graphics\graphics\line.cpp
+	"primitives.h"
+	"Point.cpp"
+	<math.h>
+
+1383491431 c:\users\ksb\desktop\graphics\graphics\line.h
+	"point.h"
+	<stdio.h>
+	<dos.h>
+
+1384793585 c:\users\ksb\desktop\graphics\graphics\point.h
+	<graphics.h>
+	<stdio.h>
+	<dos.h>
+
+1383403714 source:c:\users\ksb\desktop\graphics\graphics\circledriver.cpp
+	"circle.h"
+	"line.h"
+	<conio.h>
+
+1383404013 c:\users\ksb\desktop\graphics\graphics\circle.h
+	"point.h"
+	<stdio.h>
+	<dos.h>
+
+1383409064 source:c:\users\ksb\desktop\graphics\graphics\ellipsedriver.cpp
+	"ellipse.h"
+	"line.h"
+	<conio.h>
+
+1384793641 c:\users\ksb\desktop\graphics\graphics\ellipse.h
+	<stdio.h>
+	<dos.h>
+	"point.h"
+
+1379192738 source:c:\users\ksb\desktop\graphics\graphics\clipmidpointsubdivisiondriver.cpp
+	"clipping.h"
+	<graphics.h>
+	<dos.h>
+	<conio.h>
+	"ellipse.h"
+
+1383413930 c:\users\ksb\desktop\graphics\graphics\clipping.h
+	"point.h"
+	"line.h"
+	"rectangle.h"
+	"polygon.h"
+
+1378309614 c:\users\ksb\desktop\graphics\graphics\rectangle.h
+
+1383477513 source:c:\users\ksb\desktop\graphics\graphics\hyperboladriver.cpp
+	"hyperbola.h"
+	"line.h"
+	<conio.h>
+
+1383480856 c:\users\ksb\desktop\graphics\graphics\hyperbola.h
+	"point.h"
+
+1378416085 source:c:\users\ksb\desktop\graphics\graphics\polygondriver.cpp
+	<graphics.h>
+	<conio.h>
+	"polygon.h"
+	"rectangle.h"
+	"clipping.h"
+
+1378415183 c:\users\ksb\desktop\graphics\graphics\polygon.h
+	"line.h"
+	<dos.h>
+
+1383421955 source:c:\users\ksb\desktop\graphics\graphics\3dtransformdriver.cpp
+	"3dTransformation.h"
+	"graphics.h"
+	"line.h"
+
+1383421375 c:\users\ksb\desktop\graphics\graphics\3dtransformation.h
+	"line.h"
+	"math.h"
+
+1383412752 source:c:\users\ksb\desktop\graphics\graphics\hermitedriver.cpp
+	<graphics.h>
+	"hermite.h"
+
+1383413148 c:\users\ksb\desktop\graphics\graphics\hermite.h
+	"3dTransformation.h"
+
+1383411822 source:c:\users\ksb\desktop\graphics\graphics\seedfilldriver.cpp
+	"graphics.h"
+	<stdio.h>
+	"polygon.h"
+	"fill.h"
+
+1383243310 c:\users\ksb\desktop\graphics\graphics\fill.h
+	<graphics.h>
+
+1383414343 source:c:\users\ksb\desktop\graphics\graphics\liangbarskydriver.cpp
+	"clipping.h"
+	<graphics.h>
+	<dos.h>
+	<conio.h>
+
+1383172177 source:c:\users\ksb\desktop\graphics\graphics\bezierdriver.cpp
+	<stdio.h>
+	"graphics.h"
+	"bezier.h"
+	"line.h"
+
+1383172058 c:\users\ksb\desktop\graphics\graphics\bezier.h
+	"point.h"
+	"circle.h"
+	"fill.h"
+
+1383413962 source:c:\users\ksb\desktop\graphics\graphics\cyrusbeckdriver.cpp
+	<stdio.h>
+	<graphics.h>
+	"clipping.h"
+
+1383243394 source:c:\users\ksb\desktop\graphics\graphics\wheel.cpp
+	<stdio.h>
+	<graphics.h>
+	"circle.h"
+	"line.h"
+	"fill.h"
+	"2dTransformation.h"
+
+1384769452 c:\users\ksb\desktop\graphics\graphics\2dtransformation.h
+	"line.h"
+	"math.h"
+
+1384770560 source:c:\users\ksb\desktop\graphics\graphics\wheel_rotate_translate.cpp
+	<stdio.h>
+	<graphics.h>
+	"circle.h"
+	"line.h"
+	"fill.h"
+	"2dTransformation.h"
+
+1383256480 source:c:\users\ksb\desktop\graphics\graphics\ellipsefocalsum.cpp
+	<stdio.h>
+	<graphics.h>
+	"ellipse.h"
+	"math.h"
+	"line.h"
+
+1383257279 source:c:\users\ksb\desktop\graphics\graphics\smilingface.cpp
+	<graphics.h>
+	<conio.h>
+	<stdlib.h>
+
+1383392599 source:c:\users\ksb\desktop\graphics\graphics\program.cpp
+	"graphics.h"
+	"hermite.h"
+	"fill.h"
+	"3dTransformation.h"
+
+1383297591 source:c:\users\ksb\desktop\graphics\graphics\program22.cpp
+	"graphics.h"
+	"hermite.h"
+	"line.h"
+	"circle.h"
+	"fill.h"
+	"3dTransformation.h"
+
+1383412998 source:c:\users\ksb\desktop\graphics\graphics\name.cpp
+	"graphics.h"
+	"hermite.h"
+	"circle.h"
+	"fill.h"
+
+1383419083 source:c:\users\ksb\desktop\graphics\graphics\sutherlandhodgemandriver.cpp
+	<graphics.h>
+	<conio.h>
+	"polygon.h"
+	"rectangle.h"
+	"clipping.h"
+
+1383423253 source:c:\users\ksb\desktop\graphics\graphics\transformation2d.cpp
+	<graphics.h>
+	"2dTransformation.h"
+	"line.h"
+
+1383480386 source:c:\users\ksb\desktop\graphics\graphics\hyperboladriver1.cpp
+	"hyperbola.h"
+	"line.h"
+	<conio.h>
+
+1383480940 source:c:\users\ksb\desktop\graphics\graphics\hyperboladriver2.cpp
+	"hyperbola.h"
+	"line.h"
+	<conio.h>
+
+1383492855 source:c:\users\ksb\desktop\graphics\graphics\paraboladriver.cpp
+	<graphics.h>
+	"parabola.h"
+	"line.h"
+	<conio.h>
+
+1383492589 c:\users\ksb\desktop\graphics\graphics\parabola.h
+	"point.h"
+
+1384776352 source:c:\users\ksb\desktop\graphics\graphics\wheel_rt2.cpp
+	"graphics.h"
+	"math.h"
+	<stdio.h>
+
+1384779097 source:c:\users\ksb\desktop\graphics\graphics\wheel_sledge.cpp
+	"graphics.h"
+	"math.h"
+	<stdio.h>
+
+1384791890 source:c:\users\ksb\desktop\graphics\graphics\wheel_para.cpp
+	"graphics.h"
+	"math.h"
+	<stdio.h>
+
+1384800423 source:c:\users\ksb\desktop\graphics\graphics\ellipserot.cpp
+	"graphics.h"
+	"ellipse.h"
+	"math.h"
+
+1384799637 source:c:\users\ksb\desktop\graphics\revlving elipse.cpp
+	<graphics.h>
+	<conio.h>
+	<stdio.h>
+	<math.h>
+
+1384801131 source:c:\users\ksb\desktop\graphics\graphics\flag.cpp
+	<graphics.h>
+	<conio.h>
+	<math.h>
+
+1384815081 source:c:\users\ksb\desktop\graphics\graphics\bressenpara.cpp
+	<graphics.h>
+
