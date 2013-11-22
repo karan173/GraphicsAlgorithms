@@ -12,7 +12,7 @@ void translateAll(Point p[NUM_VERTICES], int dx)
         translateSingle(&p[i], dx, 0);
     }
 }
-void rotateAll(Point p[NUM_VERTICES], double theta, Point o)
+void rotateAll(Point p[NUM_VERTICES], double theta)
 {
     for(int i = 0; i<NUM_VERTICES; i++)
     {
@@ -61,14 +61,14 @@ int main()
             Line l = Line {p[i], p[i+1]};
             l.plotLineDDA(BLACK);
         }
-        //translateAll(p, -netDx);
-        //netDx+=dx;
-        translateAll(p, dx);
-        p[0].print();
+        translateAll(p, -netDx);
+        netDx+=dx;
+
+
         //delay(1000);
         rotateAll(p, theta);
         translateSingle(&o, dx, 0);
-
+        translateAll(p, netDx);
 
         c.bressenPlot(BLACK);
         inCircle.bressenPlot(BLACK);

@@ -54,7 +54,9 @@ void drawHermite(double p[4][2], int curveColor)
         pp.plotPoint(curveColor);
     }
 }
-
+/*
+functions to draw alphabets in Hindi using hermite curves
+*/
 void drawK(double x, double y)
 {
     double k1[4][2] = {

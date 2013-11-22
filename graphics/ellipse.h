@@ -4,8 +4,6 @@
 #include<dos.h>
 #include "point.h"
 typedef struct Ellipse ELLIPSE;
-Point stored[5000];
-int ctr = 0;
 struct Ellipse
 {
     double a,b;
@@ -24,7 +22,6 @@ struct Ellipse
         double bb2 = 2*bb;
         double d = bb + aa/4.0 - aa*b;
         double fx = 0, fy = b*aa2;
-        stored[ctr++] = p;
         plot4waySymmetry(p, color, center);
         while(fx < fy)
         {
@@ -40,7 +37,7 @@ struct Ellipse
                 fy -= aa2; //fy represents mod fy, since y decreases its mod decreases
                 d += bb*(2*p.x+1) - aa2 * p.y;
             }
-            stored[ctr++] = p;
+
             plot4waySymmetry(p, color, center);
         }
         d = bb * (p.x + 0.5) * (p.x+0.5) + aa * (p.y-1) * (p.y-1) - aa*bb;
@@ -56,7 +53,7 @@ struct Ellipse
                 p.x++;
                 d += aa*(1-2*p.y) + bb2*p.x;
             }
-            stored[ctr++] = p;
+
             plot4waySymmetry(p, color, center);
         }
     }

@@ -255,3 +255,61 @@
 1384815081 source:c:\users\ksb\desktop\graphics\graphics\bressenpara.cpp
 	<graphics.h>
 
+1383421955 source:c:\users\ksb\documents\github\graphicsalgorithms\graphics\3dtransformdriver.cpp
+	"3dTransformation.h"
+	"graphics.h"
+	"line.h"
+
+1383421375 c:\users\ksb\documents\github\graphicsalgorithms\graphics\3dtransformation.h
+	"line.h"
+	"math.h"
+
+1383491431 c:\users\ksb\documents\github\graphicsalgorithms\graphics\line.h
+	"point.h"
+	<stdio.h>
+	<dos.h>
+
+1384793585 c:\users\ksb\documents\github\graphicsalgorithms\graphics\point.h
+	<graphics.h>
+	<stdio.h>
+	<dos.h>
+
+1383256480 source:c:\users\ksb\documents\github\graphicsalgorithms\graphics\ellipsefocalsum.cpp
+	<stdio.h>
+	<graphics.h>
+	"ellipse.h"
+	"math.h"
+	"line.h"
+
+1385159268 c:\users\ksb\documents\github\graphicsalgorithms\graphics\ellipse.h
+	<stdio.h>
+	<dos.h>
+	"point.h"
+
+1385068202 source:c:\users\ksb\documents\github\graphicsalgorithms\graphics\ellipserot.cpp
+	"graphics.h"
+	"ellipse.h"
+	"math.h"
+
+1383293245 source:c:\users\ksb\documents\github\graphicsalgorithms\graphics\focalsum2.cpp
+	<stdio.h>
+	<graphics.h>
+	"ellipse.h"
+	"math.h"
+	"line.h"
+
+1384791890 source:c:\users\ksb\documents\github\graphicsalgorithms\graphics\wheel_para.cpp
+	"graphics.h"
+	"math.h"
+	<stdio.h>
+
+1384799702 source:c:\users\ksb\documents\github\graphicsalgorithms\graphics\wheel_rt2.cpp
+	"graphics.h"
+	"math.h"
+	<stdio.h>
+
+1384779097 source:c:\users\ksb\documents\github\graphicsalgorithms\graphics\wheel_sledge.cpp
+	"graphics.h"
+	"math.h"
+	<stdio.h>
+

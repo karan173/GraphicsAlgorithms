@@ -1,6 +1,7 @@
 #ifndef FILL_H_INCLUDED
 #define FILL_H_INCLUDED
 #include<graphics.h>
+#define MAXSTACK 20000
 int dx8[] = {-1,0,1,-1,1,-1,0,1};
 int dy8[] = {-1,-1,-1,0,0,1,1,1};
 int dx4[] = {-1, 0, 1, 0};
@@ -18,7 +19,7 @@ void seedFill8(Point p, int fillColor, int boundaryColor)
         }
     }
 }
-Point stack[20000];
+Point stack[MAXSTACK];
 int stackCtr;
 
 void seedFill4(Point p, int fillColor, int boundaryColor)

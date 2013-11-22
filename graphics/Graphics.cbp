@@ -48,7 +48,6 @@
 		<Unit filename="circle.h" />
 		<Unit filename="clipping.h" />
 		<Unit filename="ellipse.h" />
-		<Unit filename="ellipseRot.cpp" />
 		<Unit filename="fill.h" />
 		<Unit filename="hermite.h" />
 		<Unit filename="hyperbola.h" />
