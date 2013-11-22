@@ -1,3 +1,38 @@
 This repository contains implementations of various graphic algorithms in C++ using the winbgim graphics library. 
 
 To get winbgim go here - http://winbgim.codecutter.org/
+
+Algorithms implemented - 
+1) Mid-point algorithm 
+	a) Line
+	b) Circle
+	c) Ellipse
+	d) Hyperbola
+	e) Parabola
+
+2) Bressenham's Algorithm
+	a) Line
+	b) Circle
+	c) Ellipse
+	d) Hyperbola
+	e) Parabola
+
+3) Line Clipping Algorithms
+	a) Mid-point subdivision
+	b) Cohen Sutherland
+	c) Liang Barsky
+	d) Cyrus Beck
+
+4) Polygon Clipping Algorithms
+	a) Sutherland Hodgeman
+
+
+5) 2D Transformations
+
+6) 3D Transformations
+
+7) Seed Fill Algorithm
+
+8) Bezier Curves
+
+9) Hermite Curves
